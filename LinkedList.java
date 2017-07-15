@@ -16,10 +16,6 @@ public class LinkedList {
         {
             return start == null;
         }
-        public int getSize()
-        {
-            return size;
-        }
         public void append(int val) {
             Node tmp = new Node(val, null);
             if(!isEmpty()) {
