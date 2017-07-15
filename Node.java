@@ -14,17 +14,9 @@ public class Node {
         {
             link = n;
         }
-        public void setData(int d)
-        {
-            data = d;
-        }
         public Node getLink()
         {
             return link;
         }
-        public int getData()
-        {
-            return data;
-        }
-
+      
 }
